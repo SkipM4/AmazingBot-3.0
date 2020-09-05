@@ -49,7 +49,7 @@ public class AmazingBot extends JavaPlugin {
         reloadConfig();
         data.reload();
         Bot.start();
-        sender.sendMessage("§a所有配置文件已经重新载入!");
+        sender.sendMessage("§a所有配置文件重载成功!");
         return true;
     }
 }
